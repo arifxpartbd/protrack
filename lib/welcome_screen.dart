@@ -31,7 +31,11 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Lottie.asset("images/car_animation.json")
+          Lottie.asset("images/car_animation.json"),
+          Text("Protrack App",style: TextStyle(
+            fontFamily: "Jost-SemiBold.ttf",
+            fontSize: 18
+          ),)
         ],
       ),
     );
