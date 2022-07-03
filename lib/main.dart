@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:protrack_project/auth_screen/user_profile.dart';
 import 'package:protrack_project/welcome_screen.dart';
 
 void main() {
